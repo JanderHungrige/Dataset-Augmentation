@@ -40,7 +40,7 @@ To install the tflite_runtime, download and install [this x86 wheel file](https:
 * **1a-Image-Crawler.py** crawles images with Bing. The filter is set to *commercial, reuse*
 * **1b-get_faces_and_crop.py** extracts the face and rescale the image to 224x224
 * **1d-proof_images_plotting.py** plots the mean error to see the outliers
-* **1e-proof_images_analysis.py** determine and delete the outliers based on method one or two.
-
+* **1e-proof_images_V1.py** determine and delete the outliers based on internal analysis
+* **1e-proof_images_V2.py** determine and delete the outliers based on comparison to ground trouth
 # License
 This project is licensed under the Apache License Version 2.0. See the file *LICENSE* for detailed information.
