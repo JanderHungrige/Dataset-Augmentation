@@ -40,7 +40,7 @@ To install the tflite_runtime, download and install [this x86 wheel file](https:
 * **1a-Image-Crawler.py** crawles images with Bing. The filter is set to *commercial, reuse*
 * **1b-get_faces_and_crop.py** extracts the face and rescale the image to 224x224
 * **1d-proof_images_plotting.py** plots the mean error to see the outliers
-* **1e-proof_images_V1.py** determine and delete the outliers based on internal analysis
+* **1c-proof_images_V1.py** determine and delete the outliers based on internal analysis
 * **1e-proof_images_V2.py** determine and delete the outliers based on comparison to ground trouth
 * **2 -Create embeddings database.py** can be used to create golden trouth Embeddings file of non-creative commons license images
 # License
