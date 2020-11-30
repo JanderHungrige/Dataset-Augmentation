@@ -169,3 +169,20 @@ for celeb in CelebFolders:#[0:2]:
     plt.plot(EMBEDDINGS_temp.File,y)
     plt.title(celeb)
     plt.show()
+
+#Removing the #files
+
+#lowembeddings=[]
+#removelist=[]
+#for idx in EMBEDDINGS.index:
+#    if EMBEDDINGS.MeanEmb[idx] > 99:
+#        print('removing: ' + str(path / EMBEDDINGS.Name[idx] / EMBEDDINGS.File[idx]))
+#        os.remove(str(path / EMBEDDINGS.Name[idx] / EMBEDDINGS.File[idx]))# Remove the file
+#        EMBEDDINGS_modified=EMBEDDINGS.drop(EMBEDDINGS.index[idx]) # Remove that line from the Embeddings
+#        lowembeddings.append(str(Path(path / celeb / f))) #Add info tofiel
+
+#filename_csv='comEMBEDDINGS2_' + model + '.csv'
+#filename_json='comEMBEDDINGS2_' + model + '.json'
+#EMBEDDINGS_modified.to_csv(Path(Path.cwd() / filename_csv), index=False)
+#EMBEDDINGS_modified.to_json(Path(Path.cwd() / filename_json))
+#print(time.time()-time1)
