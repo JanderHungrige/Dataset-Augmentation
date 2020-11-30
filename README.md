@@ -11,7 +11,7 @@ With the files here, you can indentifiy false images and remove them.
 The first method would be to compare the images in each folder (one celebrity per folder) and find outliers. Or using the second method to compare all images of a folder to a golden truth from non creative common lincens. 
 
 ## Using the Second Method
-If you want to compare to the ground trouth, you will have to first download images without the *filter = (commercial, reuse)* and then use the file *2 -Create embeddings database.py* to create so called embeddings. Those Embeddings are then the gold standard. 
+If you want to compare to the ground trouth, you will have to first download images using *1a-Image-Crawler.py* without the *filter = (commercial, reuse)* and then use the file *2 -Create embeddings database.py* to create so called embeddings. Those Embeddings are then the gold standard. 
 
 **Detailed description can [be found here](https://janwerth.medium.com/8a68be38652?source=friends_link&sk=3f5a8619f10c66c5781aa6b73df0c9eb)**
 
@@ -42,5 +42,6 @@ To install the tflite_runtime, download and install [this x86 wheel file](https:
 * **1d-proof_images_plotting.py** plots the mean error to see the outliers
 * **1e-proof_images_V1.py** determine and delete the outliers based on internal analysis
 * **1e-proof_images_V2.py** determine and delete the outliers based on comparison to ground trouth
+* **2 -Create embeddings database.py** can be used to create golden trouth Embeddings file of non-creative commons license images
 # License
 This project is licensed under the Apache License Version 2.0. See the file *LICENSE* for detailed information.
